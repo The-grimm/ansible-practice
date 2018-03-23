@@ -1,0 +1,5 @@
+docker run -it ubuntu:16.04 
+apt-get update && apt-get install ansible -y
+git clone https://github.com/The-grimm/ansible-practice.git
+ansible-playbook --connection=local git.yml
+ansible-galaxy init role-name
