@@ -2,4 +2,6 @@ docker run -it ubuntu:16.04
 apt-get update && apt-get install ansible -y
 git clone https://github.com/The-grimm/ansible-practice.git
 ansible-playbook --connection=local git.yml
+git config --global user.email "scm.sriharsha@gmail.com"
+git config --global user.name "The-grimm"
 ansible-galaxy init role-name
